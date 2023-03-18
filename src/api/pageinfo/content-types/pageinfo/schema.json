@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pageinfo",
     "pluralName": "pageinfos",
-    "displayName": "pageinfo"
+    "displayName": "pageinfo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,17 +19,24 @@
       "type": "richtext"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "link": {
-      "type": "text"
+    "linkedin": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
     }
   }
 }
