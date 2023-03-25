@@ -9,8 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi",
     "postinstall": "patch-package",
-    "generate-admin-patches": "npx patch-package@strapi/admin",
-    "apply-admin-patches": "npx patch-package"
+    "generate": "npx patch-package@strapi/admin",
+    "apply": "npx patch-package"
   },
   "devDependencies": {},
   "dependencies": {
